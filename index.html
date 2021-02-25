@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Title of your site that goes on browser bar -->
+  <title>Narwhal Academy: Linklist</title> 
+  
+  <meta name="description" content="Links!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+
+  <!-- Visual styles that are easy to edit -->
+  <style type="text/css">
+
+    html { 
+      /* page background */
+      background-color: black;
+      background-image: url('img/background-image.jpg');
+
+      /* font used throughout */
+      font-family: Consolas, monaco, monospace;
+        /*
+          replace the above with either choice below if you don't like fixed-width fonts
+           1) font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+           2) font-family: georgia, times, serif;
+        */
+
+      /* text color */
+      color: white;
+    }
+
+    /* profile picture size */
+    .profile-picture {
+      max-height: 6rem;
+    }
+
+    /* page title at the top */
+    h1 {
+      font-size: 1.5rem;
+      /* if your name can't fit on one line, try decreasing the number from 1.5 to 1 */
+
+      text-transform: lowercase;
+      /* if your name looks weird in all lowercase delete this line */
+    }
+
+    /* for each link button/block */
+    ul li a {
+
+      border-color: white;
+      background-color: rgba(0,0,25,0.6);
+      color: white; /* color = text color */
+
+    }
+
+    /* change the colors for each link button/block when the mouse cursor on a laptop/desktop computer hovers over the link */
+    ul li a:hover {
+      color: black; /* color = text color */
+      background-color: white;
+    }
+
+    /* for the image that stays fixed at the bottom of the screen */
+    .bottom-image {
+      background-image: url('img/bottom-image.png');
+      height: 10rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!--
+    Profile picture loaded from the img directory. Edit file name if you use a different picture/format. Delete the line below if you don't want to show a profile picture.
+   -->
+  <img class="profile-picture" src="img/profile-picture.png">
+
+  <h1>
+
+    <!-- Title of your site that shows up at the top of the page -->
+    Narwhal Academy: Linklist
+
+  </h1>
+  <ul>
+
+    <!-- If you need to add a new link, just copy and paste everything starting from <li> to the end of </li>, and then fill in your own data. -->
+    <li>
+      <a href="https://github.com/narwhalacademy/linklist">Like what you see? 👀 Learn how to roll your own self-hosted linklist</a>
+    </li>
+
+    <!-- If you add a featured class like this, the link wiggles back and forth on the webpage -->
+    <li class="featured">
+      <a href="https://github.com/narwhalacademy/zebra-crossing">🦓 Zebra Crossing, our easy-to-use digital safety checklist 🦓</a>
+    </li>
+    
+    <li>
+      <a href="https://github.com/narwhalacademy/gummy-bears"> Under construction ⚠️:<br />Gummy Bears, a digital safety incentive program</a>
+    </li>
+
+  </ul>
+  
+  <!-- You can delete the three lines below if you like -->
+  <p>
+    <a href="https://narwhalacademy.org/roll-your-own-linklist">Roll your own linklist</a>
+  </p>
+
+  <!-- Optional: if you want to have an image that stays at the bottom always. Delete the whole line below if you don't want it -->
+  <div class="bottom-image"></div>
+
+</body>
+</html>

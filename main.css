@@ -1,0 +1,65 @@
+html {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+body {
+  padding: 0.75rem;
+  text-align: center;
+}
+.profile-picture {
+  display: block;
+  width: auto;
+  margin: 1rem auto 1.5rem;
+}
+h1 {
+  margin-bottom: 1em;
+  font-weight: 100;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  display: block;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem 1rem;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  line-height: 1.25;
+}
+.featured {
+  -webkit-animation:featured 1.5s linear infinite alternate;
+  animation:featured 1.5s linear infinite alternate;
+}
+@keyframes featured {
+  0% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(-3px);
+  }
+}
+p {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+a {
+  color: inherit;
+}
+.bottom-image {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  width: 100%;
+}
