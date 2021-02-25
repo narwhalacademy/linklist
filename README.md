@@ -9,11 +9,13 @@ Building your own linklist using HTML and CSS is like having your own [Linktree]
 ## How to do it
 
 - [Download this repository](https://github.com/narwhalacademy/linklist/archive/main.zip) to your computer
-- Edit `index.html` to change the text, links, fonts and colors
+- Open `index.html` in any web browser to see what it looks like.
+- Edit `index.html` to change the text, links, fonts and colors.
+- To see the effect of edits, you will have to refresh `index.html` in your web browser.
 - Replace the images in the `img` folder. Then, if necessary, change the referenced filenames in `index.html`
 - Optional: edit `main.css` for finer control over the layout 
-- Test it by opening `index.html` in a web browser on your computer
 - Upload the contents of this repository onto a web host
+- Make sure to test it the webite on small and large screen sizes (e.g. a mobile phone and a laptop)
 
 ## What's files are in this repository
 
